@@ -1,0 +1,23 @@
+{
+	"id": "cardbox",
+	"prefix": "cb",
+	"dependencies": [
+        "Balatro (>=1.0.1o)",
+        "Lovely (>=0.9.0)",
+        "Steamodded (>=1.0.0~BETA-1224a)"
+    ],
+    "conflicts": [
+        "JokerDisplay (<<1.9.6)", 
+        "Talisman (<<2.7)"
+    ],
+	"main_file": "main.lua",
+	"priority": 0,
+	"version": "0.0.0",
+	"name": "Cardbox",
+	"display_name": "Cardbox",
+	"author": ["Cardboard Collective"],
+	"badge_colour": "9A75EF",
+	"badge_text_colour": "FFFFFF",
+    "dump_loc": false,
+	"description": ""
+}
