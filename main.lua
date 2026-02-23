@@ -1,7 +1,8 @@
 Cardbox = SMODS.current_mod
 
 local load = {
-    pre = { 'smods', 'talisman' },
+    pre = { 'smods', 'atlas', 'talisman' },
+    joker = { 'house' },
 }
 
 -- Load code programmed by Dilly; repurposed with a table instead of going through folders and files alphabetically
