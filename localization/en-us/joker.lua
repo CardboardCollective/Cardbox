@@ -14,37 +14,48 @@ return {
             j_cb_stonecutter = {
                 name = "Stonecutter",
                 text = {
-                    "{C:attention}Stone{} Cards give {C:money}$3{} when played"
+                    "Played {C:attention}Stone{} cards",
+                    "give {C:money}$3{} when scored"
                 }
             },
             j_cb_metallurgist = {
                 name = "Metallurgist",
                 text = {
-                    "{C:attention}Steel{} Cards give {X:red,C:white}X#1#{} Mult even when scored"
+                    "Each played {C:attention}Steel{}",
+                    "card gives {X:red,C:white}X#1#{}",
+                    "Mult when scored",
+
                 }
             },
             j_cb_jeweler = {
                 name = "Jeweler",
                 text = {
-                    "{C:attention}Gold{} Cards give {X:chips,C:white}X#1#{} Chips when scored"
+                    "Each played {C:attention}Gold{}",
+                    "card gives {X:chips,C:white}X#1#{}",
+                    "Chips when scored"
                 }
             },
             j_cb_glassblower = {
                 name = "Glassblower",
                 text = {
-                    "{C:attention}Glass{} Cards give {X:chips,C:white}X#1#{} Chips when held in hand"
+                    "Each {C:attention}Glass{} card",
+                    "held in hand",
+                    "give {X:chips,C:white}X#1#{} Chips"
                 }
             },
             j_cb_highroller = {
                 name = "Highroller",
                 text = {
-                    "{C:attention}Lucky{} Cards are retriggered {C:attention}#1# {}time"
+                    "Retrigger all",
+                    "played {C:attention}Lucky{} cards"
                 }
             },
             j_cb_looping = {
                 name = "Looping",
                 text = {
-                    "Cards with a {C:attention}Red Seal{} retrigger {C:attention}#1#{} additional time when scored"
+                    "Retrigger all",
+                    "played cards",
+                    "with a {C:attention}Red Seal{}"
                 }
             },
             j_cb_blockchain = {
@@ -72,7 +83,7 @@ return {
                 text = {
                     "Gains {C:mult}+#1#{} Mult for each",
                     "{C:attention}consecutive{} hand played",
-                    "with {C:red}0{} discards remaining",
+                    "with {C:attention}0{} discards remaining",
                     "{C:inactive}(Currently {C:mult}+#2#{C:inactive} Mult){}"
                 }
             },
@@ -81,21 +92,25 @@ return {
                 text = {
                     "Next shop is {C:green}guaranteed{}",
                     "to have a {C:spectral}Spectral Pack{}",
-                    "if {C:attention}Blind{} was defeated",
-                    "with {C:red}0{} discards used"
+                    "if no discards are used",
+                    "by end of the round"
                 }
             },
             j_cb_cappuccino = {
                 name = "Cappuccino",
                 text = {
-                    "{X:mult,C:white}X3{} Mult, but {C:money}-$2{} when a hand is played"
+                    "{X:mult,C:white}X3{} Mult,",
+                    "lose {C:money}$2{} if",
+                    "hand is played"
                 }
             },
 
              j_cb_house = {
                 name = "Mr. House",
                 text = {
-                    "{C:inactive,s:0.8}No effect yet"
+                    "All played {C:attention}face{} cards",
+                    "become {C:attention}Steel{} cards",
+                    "when scored",
                 }
             }
         }

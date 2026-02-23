@@ -11,9 +11,16 @@ SMODS.Joker ({
     end,
     calculate = function (self, card, context)
          if context.individual and context.cardarea == G.play and SMODS.has_enhancement(context.other_card, 'm_gold') then
-            return {
-                x_chips = card.ability.extra.x_chips
-            }
-         end
+            if context.other_card.debuff then
+                return {
+                    message = localize('k_debuffed'),
+                    colour = G.C.RED
+                }
+            else
+                return {
+                    x_chips = card.ability.extra.x_chips
+                }
+            end
+        end
     end
 })

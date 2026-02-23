@@ -3,27 +3,12 @@ Cardbox = SMODS.current_mod
 local load = {
     pre = { "smods", "atlas" },
     joker = {
-        "brawler",
-        "stonecutter",
-        "metallurgist",
-        "jeweler",
-        "glassblower",
-        "highroller",
-        "looping",
-        "blockchain",
-        "philosophy",
-        "ontherun",
-        "occultbanner",
-        "cappuccino",
-        "house",
+        "brawler", "stonecutter", "metallurgist", "jeweler", "glassblower",
+        "highroller", "looping", "ontherun", "occultbanner", "cappuccino",
+        "house", "blockchain", "philosophy",
     },
-    voucher = {
-        "homeRun",
-        "grandSlam"
-    },
-    blind = {
-        "pivot",
-    },
+    voucher = { "homeRun", "grandSlam" },
+    blind = { "pivot", },
 }
 
 -- Load code programmed by Dilly; repurposed with a table instead of going through folders and files alphabetically
