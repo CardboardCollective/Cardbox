@@ -21,6 +21,9 @@ local load = {
         "homeRun",
         "grandSlam"
     },
+    blind = {
+        "pivot",
+    },
 }
 
 -- Load code programmed by Dilly; repurposed with a table instead of going through folders and files alphabetically
