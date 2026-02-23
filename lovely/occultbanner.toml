@@ -1,0 +1,23 @@
+[manifest]
+version = "1.0.0"
+dump_lua = true
+priority = 0
+
+[[patches]]
+[patches.pattern]
+target = 'game.lua'
+pattern = '''G.GAME.current_round.used_packs[i] = get_pack('shop_pack').key'''
+position = 'before'
+payload = '''if G.GAME.current_round.cb_next_shop_spectral then
+    G.GAME.current_round.cb_next_shop_spectral = false
+    G.GAME.current_round.used_packs[i] = "p_spectral_normal_"..(math.random(1, 2))
+else'''
+match_indent = true
+
+[[patches]]
+[patches.pattern]
+target = 'game.lua'
+pattern = '''G.GAME.current_round.used_packs[i] = get_pack('shop_pack').key'''
+position = 'after'
+payload = '''end'''
+match_indent = true

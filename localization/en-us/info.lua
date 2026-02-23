@@ -12,5 +12,10 @@ return {
                 }
             }
         }
+    },
+     misc = {
+        dictionary = {
+            k_cardb_success_ex = "Success!"
+        }
     }
 }
