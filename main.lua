@@ -5,10 +5,10 @@ local load = {
     joker = {
         "brawler", "stonecutter", "metallurgist", "jeweler", "glassblower",
         "highroller", "looping", "ontherun", "occultbanner", "cappuccino",
-        "house", "blockchain", "philosophy",
+        "blackops", "house", "blockchain", "philosophy"
     },
     voucher = { "homeRun", "grandSlam" },
-    blind = { "pivot", },
+    blind = { "pivot" },
 }
 
 -- Load code programmed by Dilly; repurposed with a table instead of going through folders and files alphabetically

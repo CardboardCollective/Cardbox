@@ -2,6 +2,18 @@
 return {
     descriptions = {
         Joker = {
+            j_cb_blackops = {
+                name = "Black Ops Joker",
+                text = {
+                    {
+                        "{s:0.6}\"IS THAT {B:2,V:3,s:0.6}#4# OF #5#{s:0.6}?\"",
+                        "Each played {C:attention}#2#{}",
+                        "of {V:1}#3#{} gives",
+                        "{C:money}$#1#{} when scored",
+                        "{s:0.8}Card changes every round"
+                    }
+                }
+            },
             j_cb_brawler = {
                 name = "Brawler",
                 text = {
